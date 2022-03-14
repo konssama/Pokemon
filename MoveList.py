@@ -1,0 +1,65 @@
+import setup
+import TypeList as types
+
+razorLeaf = setup.Move(
+    name="Razor Leaf", 
+    ps="physical", 
+    moveType=types.grass, 
+    damage=55)
+seedBomb = setup.Move(
+    name="Seed Bomb", 
+    ps="physical", 
+    moveType=types.grass, 
+    damage=80)
+takeDown = setup.Move(
+    name="Take Down", 
+    ps="physical", 
+    moveType=types.normal, 
+    damage=90)
+solarBeam = setup.Move(
+    name="Solar Beam", 
+    ps="special", 
+    moveType=types.grass, 
+    damage=120)
+
+fireFang = setup.Move(
+    name="Fire Fang", 
+    ps="physical", 
+    moveType=types.fire, 
+    damage=65)
+dragonClaw = setup.Move(
+    name="Dragon Claw", 
+    ps="physical", 
+    moveType=types.dragon, 
+    damage=80)
+airSlash = setup.Move(
+    name="Air Slash", 
+    ps="special", 
+    moveType=types.flying, 
+    damage=75)
+flamethrower = setup.Move(
+    name="Flamethrower", 
+    ps="special", 
+    moveType=types.fire, 
+    damage=90)
+
+waterGun = setup.Move(
+    name="Water Gun", 
+    ps="special", 
+    moveType=types.water, 
+    damage=40)
+rapidSpin = setup.Move(
+    name="Rapid Spin", 
+    ps="physical",
+    moveType=types.normal, 
+    damage=50)
+hydroPump = setup.Move(
+    name="Hydro Pump", 
+    ps="special", 
+    moveType=types.water, 
+    damage=110)
+skullBash = setup.Move(
+    name="Skull Bash", 
+    ps="physical", 
+    moveType=types.normal, 
+    damage=130)
